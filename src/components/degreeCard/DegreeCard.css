@@ -1,8 +1,13 @@
 .degree-card {
   display: flex;
   width: 100%;
+  max-width: 100%;
   justify-content: center;
   align-items: center;
+}
+.educations-body-div {
+  max-width: 100%;
+  width: 100%;
 }
 
 .card-title {

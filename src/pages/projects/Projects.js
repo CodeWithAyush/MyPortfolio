@@ -20,7 +20,6 @@ import ProjectsImg from "./ProjectsImg";
 class Projects extends Component {
   render() {
     const theme = this.props.theme;
-    console.log(projectDetails, "PP");
 
     return (
       <div className="projects-main">
@@ -54,7 +53,6 @@ class Projects extends Component {
         </div>
         <div className="repo-cards-div-main">
           {projectDetails.map((repo) => {
-            console.log(repo, "PP");
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>

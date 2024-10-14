@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Ayush Sengar Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://ayushsengar.vercel.app",
   },
 };
 
@@ -26,7 +26,7 @@ const greeting = {
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
     "https://drive.google.com/file/d/1y3UkG-QUPA4anhUhhJww4TgXek96AwWH/view?usp=drive_link",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/CodeWithAyush",
 };
 
