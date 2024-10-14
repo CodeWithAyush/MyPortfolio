@@ -6,9 +6,10 @@ import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import { openSource } from "../../portfolio";
 import { greeting } from "../../portfolio.js";
+import { projectDetails } from "../../portfolio.js";
 
 export default function Projects() {
-  const [repo, setrepo] = useState([]);
+  const [repo, setrepo] = useState(projectDetails);
 
   useEffect(() => {
     getRepoData();

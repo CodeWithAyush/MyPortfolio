@@ -8,7 +8,7 @@ class DegreeCard extends Component {
     const theme = this.props.theme;
     return (
       <div className="degree-card">
-        {degree.logo_path && (
+        {/* {degree.logo_path && (
           <Flip left duration={2000}>
             <div className="card-img">
               <img
@@ -22,7 +22,7 @@ class DegreeCard extends Component {
               />
             </div>
           </Flip>
-        )}
+        )} */}
         <Fade right duration={2000} distance="40px">
           <div
             className="card-body"
