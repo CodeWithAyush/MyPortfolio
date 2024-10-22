@@ -67,7 +67,7 @@ const socialMediaLinks = [
   {
     name: "X-Twitter",
     link: "https://x.com/Ayushsengar10",
-    fontAwesomeIcon: "fa-x-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
+    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/x-twitter?f=brands&s=solid
     backgroundColor: "#000000", // Reference https://simpleicons.org/?q=x
   },
   {
@@ -129,9 +129,9 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Building responsive web frontends using React, Next.js, and Gatsby",
+        "⚡ Styling user interfaces with Tailwind CSS, Bootstrap, Ant Design, and SCSS",
+        "⚡ Developing and optimizing front-end performance with server-side rendering (SSR) and static site generation (SSG)",
       ],
       softwareSkills: [
         {
