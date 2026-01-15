@@ -25,7 +25,7 @@ const greeting = {
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1y3UkG-QUPA4anhUhhJww4TgXek96AwWH/view?usp=drive_link",
+    "https://drive.google.com/file/d/1yf3g8oVbXRAwFJ9hjAZqCWVOdZo9SVzt/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
   githubProfile: "https://github.com/CodeWithAyush",
 };
@@ -527,11 +527,22 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Developer I",
+          company: "United Airlines",
+          company_url: "https://www.united.com/",
+          logo_path: "united.jpg",
+          duration: "Apr 2025 - Present",
+          location: "Gurugram, Haryana",
+          description:
+            "I have hands-on experience using SDL Tridion CMS to orchestrate multilingual content delivery across global web platforms. My work focused on managing structured content, supporting localization workflows, and ensuring seamless publishing across regions, while collaborating closely with cross-functional teams to maintain content quality, consistency, and business alignment.",
+          color: "#000000",
+        },
+        {
           title: "Developer II",
           company: "Cloud Analogy CRM Specialist",
           company_url: "https://www.cloudanalogy.com/",
-          logo_path: "ca.png",
-          duration: "Jan 2024 - Present",
+          logo_path: "image.png",
+          duration: "Jan 2024 - Nov 2024",
           location: "Kurukshetra, Haryana",
           description:
             "I have experience as a Full Stack Developer using React, Next.js, Tailwind CSS, and Ant Design. I worked on product-based projects, developing responsive, scalable web applications. My role involved both front-end and back-end tasks, collaborating with teams to deliver high-quality solutions tailored to business and user needs.",
