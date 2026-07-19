@@ -382,7 +382,6 @@ const degrees = {
       descriptions: [
         "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, ML etc.",
         "⚡ Apart from this, I have done courses on Java, Python, HTML5 & CSS3, C programming",
-        ,
       ],
       website_link: "https://hcst.edu.in/",
     },
@@ -800,24 +799,6 @@ const projectDetails = [
     description:
       "A cybersecurity platform that provides real-time monitoring and analysis of potential threats, allowing organizations to detect and mitigate security risks proactively.",
     languages: ["JavaScript", "Next", "Django", "TailwidnCSS"],
-    languages: [
-      {
-        name: "JavaScript",
-        iconifyClass: "logos-javascript",
-      },
-      {
-        name: "Next",
-        iconifyClass: "akar-icons:nextjs-fill",
-      },
-      {
-        name: "TailwindCSS",
-        iconifyClass: "devicon:tailwindcss",
-      },
-      {
-        name: "Django",
-        iconifyClass: "vscode-icons:file-type-django",
-      },
-    ],
   },
 ];
 
