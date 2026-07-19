@@ -527,7 +527,7 @@ const experience = {
       work: true,
       experiences: [
         {
-          title: "Developer I",
+          title: "Developer II",
           company: "United Airlines",
           company_url: "https://www.united.com/",
           logo_path: "united.jpg",
