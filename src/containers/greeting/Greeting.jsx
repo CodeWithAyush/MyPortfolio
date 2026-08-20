@@ -1,4 +1,5 @@
 import React from "react";
+import feelingProudImg from "../../assets/images/feelingProud.svg";
 import "./Greeting.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 // import Button from "../../components/button/Button";
@@ -47,7 +48,7 @@ export default function Greeting(props) {
           <div className="greeting-image-div">
             {/* <img
 							alt="saad sitting on table"
-							src={require("../../assets/images/feelingProud.svg")}
+							src={feelingProudImg}
 						></img> */}
             <FeelingProud theme={theme} />
           </div>

@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import { getImage } from "../../utils/images";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
-import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.js";
+import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion.jsx";
 import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
@@ -155,7 +156,7 @@ class Experience extends Component {
             <div className="experience-heading-div">
               <div className="experience-heading-img-div">
                 {/* <img
-									src={require(`../../assets/images/${experience["header_image_path"]}`)}
+									src={getImage(experience["header_image_path"])}
 									alt=""
 								/> */}
                 <ExperienceImg theme={theme} />

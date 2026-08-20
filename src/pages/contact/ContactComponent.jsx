@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { getImage } from "../../utils/images";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
@@ -26,7 +27,7 @@ class Contact extends Component {
             <div className="contact-heading-div">
               <div className="contact-heading-img-div">
                 <img
-                  src={require(`../../assets/images/${ContactData["profile_image_path"]}`)}
+                  src={getImage(ContactData["profile_image_path"])}
                   alt=""
                 />
               </div>
@@ -60,7 +61,7 @@ class Contact extends Component {
             <div className="address-heading-div">
               <div className="contact-heading-img-div">
                 <img
-											src={require(`../../assets/images/${addressSection["avatar_image_path"]}`)}
+											src={getImage(addressSection["avatar_image_path"])}
 											alt=""
 										/>
                 <AddressImg theme={theme} />

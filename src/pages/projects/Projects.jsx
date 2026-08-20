@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { getImage } from "../../utils/images";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
@@ -29,7 +30,7 @@ class Projects extends Component {
             <div className="projects-heading-div">
               <div className="projects-heading-img-div">
                 {/* <img
-											src={require(`../../assets/images/${projectsHeader["avatar_image_path"]}`)}
+											src={getImage(projectsHeader["avatar_image_path"])}
 											alt=""
 										/> */}
                 <ProjectsImg theme={theme} />
