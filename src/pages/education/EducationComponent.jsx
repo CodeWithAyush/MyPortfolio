@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import educationImg from "../../assets/images/education.svg";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import TopButton from "../../components/topButton/TopButton";
@@ -22,7 +23,7 @@ class Education extends Component {
             <div className="heading-div">
               <div className="heading-img-div">
                 {/* <img
-									src={require("../../assets/images/education.svg")}
+									src={educationImg}
 									alt=""
 								/> */}
                 <EducationImg theme={theme} />

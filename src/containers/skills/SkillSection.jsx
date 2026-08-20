@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { getImage } from "../../utils/images";
 import "./Skills.css";
 import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skills } from "../../portfolio";
@@ -30,7 +31,7 @@ class SkillSection extends Component {
                 <div className="skills-image-div">
                   {/* <img
                     alt="Ashutosh is Analysing Data"
-                    src={require(`../../assets/images/${skill.imagePath}`)}
+                    src={getImage(skill.imagePath)}
                   ></img> */}
                   <GetSkillSvg fileName={skill.fileName} theme={theme} />
                 </div>

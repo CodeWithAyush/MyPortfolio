@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
+import ExperienceCard from "../../components/experienceCard/ExperienceCard.jsx";
 import "./ExperienceAccordion.css";
 
 class ExperienceAccordion extends Component {
